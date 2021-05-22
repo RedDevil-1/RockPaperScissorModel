@@ -1,18 +1,24 @@
+// computer random selection
 computerPlay = () => {
   const game = ["Rock", "Paper", "Scissor"];
   var result = game[Math.floor(Math.random() * 3)];
 
   return result;
 };
+
+// score keeper
 var player = 0;
 var computer = 0;
 
+// player Selection
 const option1 = document.getElementById("userCollection");
 option1.addEventListener("click", (e) => {
   console.log(e.target);
 
   round(e.target.alt, computerPlay);
 });
+
+// algo for checking who wins
 round = (playerSelection, computerSelection) => {
   computerSelection = computerPlay().toLowerCase();
 
