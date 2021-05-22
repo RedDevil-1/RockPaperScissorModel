@@ -1,0 +1,36 @@
+body {
+  background-image: linear-gradient(to bottom right, #fff, #3f3f3f);
+  background-repeat: no-repeat;
+  height: 97.2vh;
+}
+h1 {
+  margin-top: 2vh;
+  font-size: 7vh;
+  font-family: "Pattaya", sans-serif;
+  text-align: center;
+}
+h2 {
+  font-size: 5vh;
+  font-family: "Reggae One", cursive;
+  text-align: center;
+}
+#userCollection {
+  margin-top: 10vh;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  display: flex;
+  justify-content: space-around;
+}
+.image {
+  width: 200px;
+  height: 200px;
+}
+.image > img {
+  height: 200px;
+  width: 200px;
+}
+
+img:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
