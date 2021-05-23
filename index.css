@@ -1,7 +1,7 @@
 body {
   background-image: linear-gradient(to bottom right, #fff, #3f3f3f);
   background-repeat: no-repeat;
-  height: 97.2vh;
+  height: 100vh;
 }
 h1 {
   margin-top: 2vh;
@@ -10,12 +10,14 @@ h1 {
   text-align: center;
 }
 h2 {
+  margin-top: 0;
   font-size: 5vh;
   font-family: "Reggae One", cursive;
   text-align: center;
 }
 #userCollection {
-  margin-top: 10vh;
+  align-items: center;
+  margin-top: 8vh;
   margin-left: 20vw;
   margin-right: 20vw;
   display: flex;
@@ -33,4 +35,10 @@ h2 {
 img:hover {
   cursor: pointer;
   transform: scale(1.2);
+}
+#btn {
+  margin-top: 5vh;
+  display: none;
+  justify-content: center;
+  text-align: center;
 }

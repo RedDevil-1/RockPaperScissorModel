@@ -3,20 +3,42 @@
   <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="./index.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet"> 
-
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap"
+      rel="stylesheet"
+    />
     <title>Rock Paper & Scissor</title>
   </head>
   <body>
     <h1>Let's Play Rock, Paper & Scissor</h1>
     <h2>Choose One</h2>
 
-    <iv id="userCollection">
-      <div class="image" id="rock"><img src="./images/rock.png" alt="rock"></div>
-      <div class="image" id="paper"><img src="./images/paper.png" alt="paper"> </div>
-      <div class="image" id="scissor"><img src="./images/scissor.png" alt="scissor"> </div>
+    <div id="userCollection">
+      <div class="image" id="rock">
+        <img src="./images/rock.png" alt="rock" />
+      </div>
+      <div class="image" id="paper">
+        <img src="./images/paper.png" alt="paper" />
+      </div>
+      <div class="image" id="scissor">
+        <img src="./images/scissor.png" alt="scissor" />
+      </div>
+    </div>
+    <div id="userCollection">
+      <div id="playerScore"></div>
+      <div>
+        <p>Computer chose</p>
+        <div id="computerChoice"></div>
+      </div>
+      <div id="computerScore"></div>
+    </div>
+    <div id="btn">
+      <button id="button">RESET</button>
     </div>
     <script src="./main.js"></script>
   </body>
